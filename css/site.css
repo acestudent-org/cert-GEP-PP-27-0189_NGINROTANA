@@ -1,0 +1,223 @@
+body,
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100%;
+    min-height: 100dvh;
+}
+
+html {
+    position: relative
+}
+
+body {
+    margin: 0;
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Ubuntu, Roboto, Helvetica Neue, Arial, Noto Sans, Khmer OS Siemreap, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    background-color: #052d40;
+    background: linear-gradient(180deg, #052d40, #0e5a88, #052d40);
+    background-image: linear-gradient(180deg, #052d40, rgba(14, 90, 136, .8901960784313725), #052d40), url("../img/wp2176019-blue-light-wallpapers.9f10850d997ae9c4e96d.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("../webfonts/fa-solid-900.eot");
+    src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg")
+}
+
+.far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("../webfonts/fa-regular-400.eot");
+    src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg")
+}
+
+.fa,
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900
+}
+
+.fas,
+.far {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1
+}
+
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.card-box {
+    background-color: white;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, .05), 0 0 0 1px rgba(0, 0, 0, .08);
+    -webkit-box-shadow: rgba(0, 0, 0, .05) 0 6px 24px 0, rgba(0, 0, 0, .08) 0 0 0 1px;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.cert-box {
+    background-color: white;
+    border-radius: 1.5em;
+    padding: 1.5em;
+    padding-top: 190px;
+    position: relative;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, .05), 0 0 0 1px rgba(0, 0, 0, .08);
+    -webkit-box-shadow: rgba(0, 0, 0, .05) 0 6px 24px 0, rgba(0, 0, 0, .08) 0 0 0 1px;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.cert-box::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: radial-gradient(400px at 6.8% 8.3%, rgb(185 219 255) 0, #f4ccff 100.2%);
+    height: 150px;
+    border-radius: 50%;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+
+.cert-i {
+    font-size: 5em;
+    color: #1b70a3;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.cert-title {
+    font-size: 1.2em;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+
+.cert-info {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    padding: 2em;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.cert-info-title {
+    border-bottom: 1px solid;
+    font-size: 2em;
+}
+
+.align-c {
+    text-align: center;
+}
+
+.mg-t-05 {
+    margin-top: 0.5em;
+}
+
+.mg-t-1 {
+    margin-top: 1em;
+}
+
+.fs-1-3 {
+    font-size: 1.3em;
+}
+
+.fs-2 {
+    font-size: 2em;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.btn-inline {
+    font-family: inherit;
+    font-size: inherit;
+    margin: .5em;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    color: white;
+    max-width: 280px;
+    border: 1px solid;
+}
+
+.social-img {
+    display: inline-block;
+    width: 35px;
+    vertical-align: middle;
+    margin: 0.3em;
+    border-radius: 50%;
+}
+
+.no-show {
+    display: none;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+    height: 0px
+}
+
+* {
+    scrollbar-width: none;
+}

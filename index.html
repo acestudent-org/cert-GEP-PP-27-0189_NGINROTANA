@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACE Certificate</title>
+
+    <link rel="stylesheet" href="css/fontawesome.min.css?v=3b2gaAVMxvjoBVPBCOxX5g3I4m5CR8nJxWEUfT0CpPo" />
+    <link rel="stylesheet" href="css/site.css?v=pFHtCuOSK1lGOpZUUfu_FCRq0UcmTUgRHbBMrQI91iY" />
+</head>
+
+<body>
+
+
+    <input id="hidHasCert" type="hidden" data-val="true" data-val-required="The hasCert field is required." name="hasCert" value="True" />
+    <input id="hidCertNo" type="hidden" data-val="true" data-val-required="The no field is required." name="cert.no" value="GEP-PP-27/0189" />
+    <input id="hidHasUploadCert" type="hidden" data-val="true" data-val-required="The hasUploadCert field is required." name="hasUploadCert" value="True" />
+    <div class="center-box align-c">
+        <div class="">
+            <div class="cert-box" id="divCertificate">
+                <div class="align-c">
+                    <i class="fas fa-award cert-i"></i>
+                    <div class="cert-title">Verified Certificate</div>
+                    <div class="mg-t-05">AWARDED TO</div>
+                    <div class="fs-2 upper">NGIN ROTANA</div>
+                    <div class="mg-t-05">COMPLETION OF</div>
+                    <div class="fs-1-3 upper">THE ACE GENERAL ENGLISH PROGRAM</div>
+                    <div></div>
+                    <br/>
+                    <div>GEP-PP 27/0189</div>
+                    <div>Issued date: 27/08/2023</div>
+                    <div>Issued by: Australian Centre for Education (ACE)</div>
+
+                    <div class="mg-t-1">
+                        <img src="img/ACE-logo.png" style="width: 70px; margin-right: 5px" />
+                        <img src="img/Ielts-2-logo.png" style="width: 100px; margin-right: 5px" />
+                        <img src="img/idp-2-logo.png" style="width: 90px;" />
+                    </div>
+                </div>
+            </div>
+            <div class="mg-t-1" id="divShareDesktop">
+                <img class="social-img" src="img/fb.png" onclick="shareFB()" />
+                <a id="teleShareUrl" target="_blank"><img class="social-img" src="img/tele.png" /></a>
+            </div>
+            <div class="align-c mg-t-1" id="divShareMobile">
+                <button type="button" class="btn-inline" onclick="share()">Share</button>
+            </div>
+        </div>
+        <div class="no-show">
+            <div class="align-c fs-2" style="color: white">
+                <div>Invalid Certificate</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/site.js?v=ZZP0iqT_ongs4eI-4LLNZD-a0RaOX-S47vMyBPatwwA"></script>
+
+</body>
+
+</html>
